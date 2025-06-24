@@ -1,18 +1,14 @@
 package allureReporting;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class FirstTest {
-	
+public class FirstTest{
 	@Test
-	public void testCase01() {
-		Assert.assertTrue(true);
+	public void firstTest() {
+		System.out.println("Test1");
+		System.out.println("Test2");
+		System.out.println("Test3");
 	}
 	
-	@Test
-	public void testcase02() {
-		System.out.println("dfghjk");
-	}
 
 }
